@@ -2,6 +2,12 @@
 import argparse, gzip, hashlib, json, pathlib, re, sqlite3, zlib
 FIELDS=['product_name','product_name_en','product_name_fr','brands','quantity','product_quantity_unit','countries_tags','nutriments','last_modified_t','nutrition_data_per']
 
+def check_integrity(results,schema):
+    """Narrow compatibility with SQLite bugs ca8de9a304 / b855886c4c only."""
+    assert re.sub(r'\s+','',schema.lower())=="createvirtualtableproduct_searchusingfts4(terms,content='',matchinfo=fts3,tokenize=unicode61)"
+    allowed=['ok','unable to validate the inverted index for FTS4 table main.product_search: SQL logic error','unable to validate the inverted index for FTS4 table main.product_search: attempt to write a readonly database']
+    assert len(results)==1 and results[0] in allowed,results
+
 def validate(folder, source=None):
     manifest=json.loads((folder/'manifest-v2.json').read_text(encoding='utf-8'))
     assert manifest['schema']==2 and manifest['scope']=='europe-switzerland' and manifest['format']=='sqlite-blocks-v2'
@@ -27,11 +33,10 @@ def validate(folder, source=None):
         assert db.execute('PRAGMA application_id').fetchone()[0]==1347241551
         assert db.execute('PRAGMA user_version').fetchone()[0]==2
         schema=db.execute("SELECT sql FROM sqlite_master WHERE name='product_search'").fetchone()[0]
-        assert re.sub(r'\s+','',schema.lower())=="createvirtualtableproduct_searchusingfts4(terms,content='',matchinfo=fts3,tokenize=unicode61)"
         # SQLite bug fixed upstream ca8de9a304: contentless FTS4 has no source text
         # to compare. Retain every physical-page check and reject ALL other errors.
         results=[row[0] for row in db.execute('PRAGMA quick_check')]
-        assert results and all(x in ('ok','unable to validate the inverted index for FTS4 table main.product_search: SQL logic error') for x in results),results
+        check_integrity(results,schema)
         metadata=dict(db.execute('SELECT key,value FROM metadata'));fields=json.loads(metadata['fields']);assert fields==FIELDS
         markets_file=folder/'markets.json'
         if markets_file.exists():markets=set(json.loads(markets_file.read_text(encoding='utf-8')))
