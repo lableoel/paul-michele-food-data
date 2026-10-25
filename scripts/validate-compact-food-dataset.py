@@ -26,7 +26,12 @@ def validate(folder, source=None):
         db=sqlite3.connect(database.resolve().as_uri()+'?mode=ro',uri=True)
         assert db.execute('PRAGMA application_id').fetchone()[0]==1347241551
         assert db.execute('PRAGMA user_version').fetchone()[0]==2
-        assert db.execute('PRAGMA quick_check').fetchone()==('ok',)
+        schema=db.execute("SELECT sql FROM sqlite_master WHERE name='product_search'").fetchone()[0]
+        assert re.sub(r'\s+','',schema.lower())=="createvirtualtableproduct_searchusingfts4(terms,content='',matchinfo=fts3,tokenize=unicode61)"
+        # SQLite bug fixed upstream ca8de9a304: contentless FTS4 has no source text
+        # to compare. Retain every physical-page check and reject ALL other errors.
+        results=[row[0] for row in db.execute('PRAGMA quick_check')]
+        assert results and all(x in ('ok','unable to validate the inverted index for FTS4 table main.product_search: SQL logic error') for x in results),results
         metadata=dict(db.execute('SELECT key,value FROM metadata'));fields=json.loads(metadata['fields']);assert fields==FIELDS
         markets_file=folder/'markets.json'
         if markets_file.exists():markets=set(json.loads(markets_file.read_text(encoding='utf-8')))
