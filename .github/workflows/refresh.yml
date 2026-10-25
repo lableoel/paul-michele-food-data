@@ -1,0 +1,40 @@
+name: Refresh European food data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 2 * *'
+permissions:
+  contents: write
+concurrency:
+  group: food-dataset-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build regional data from official export
+        run: python3 scripts/build_dataset.py --download --source "$RUNNER_TEMP/openfoodfacts.csv.gz" --output .
+      - name: Verify all public rows and hashes
+        run: python3 scripts/validate_dataset.py
+      - name: Prune obsolete current-tree chunks after 120 days
+        run: |
+          python3 - <<'PY'
+          import json,pathlib,subprocess,time
+          used={p['file'] for p in json.loads(pathlib.Path('manifest.json').read_text())['parts']}
+          for p in pathlib.Path('.').glob('foods-*.jsonl.gz'):
+              stamp=subprocess.check_output(['git','log','-1','--format=%ct','--',str(p)],text=True).strip()
+              if p.name not in used and stamp and time.time()-int(stamp)>120*86400:p.unlink()
+          PY
+      - name: Publish only verified public data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- manifest.json README.txt 'foods-*.jsonl.gz'
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Refresh Swiss and European food facts'
+          git push

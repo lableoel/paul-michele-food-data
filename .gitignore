@@ -1,0 +1,5 @@
+*.csv
+*.csv.gz
+*.sqlite
+*.sqlite-*
+__pycache__/

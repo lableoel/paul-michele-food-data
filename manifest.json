@@ -1,0 +1,282 @@
+{
+  "schema": 1,
+  "scope": "europe-switzerland",
+  "version": "2026-10-25-874076cededb",
+  "createdAt": "2026-10-25T18:25:11Z",
+  "count": 2839458,
+  "parts": [
+    {
+      "file": "foods-5dbd2f902bc5-001.jsonl.gz",
+      "bytes": 2881219,
+      "sha256": "5dbd2f902bc51b7ad39ac53be3f224caebf9646ab643adfeb8165b7a781aea6d",
+      "rows": 64186
+    },
+    {
+      "file": "foods-a984d2f2af57-002.jsonl.gz",
+      "bytes": 2404099,
+      "sha256": "a984d2f2af579e5842a9dd534bceff4ad0378adf26f03c76b96bd0aa29d5365a",
+      "rows": 68852
+    },
+    {
+      "file": "foods-8198459ac4fd-003.jsonl.gz",
+      "bytes": 3065314,
+      "sha256": "8198459ac4fd98ebd2b9bdac261bdc948db6819ac16349a6d3ac0169b8318da1",
+      "rows": 64421
+    },
+    {
+      "file": "foods-71a72836533f-004.jsonl.gz",
+      "bytes": 2999436,
+      "sha256": "71a72836533fac3e570e0888b946971edb3233626f84220b2402ca1f7b6036d5",
+      "rows": 66072
+    },
+    {
+      "file": "foods-8271b7c68d92-005.jsonl.gz",
+      "bytes": 2438335,
+      "sha256": "8271b7c68d929a43512b739537b4e806c6e5ccb6064624ea22c0249a37aaaa2c",
+      "rows": 65989
+    },
+    {
+      "file": "foods-6766779b6397-006.jsonl.gz",
+      "bytes": 1869943,
+      "sha256": "6766779b63973373c7a53b02878f6c173d84bf553dd15efce102681b792cb3bf",
+      "rows": 65460
+    },
+    {
+      "file": "foods-b52fdf888d9b-007.jsonl.gz",
+      "bytes": 2043455,
+      "sha256": "b52fdf888d9b99301f9c58a41530ca9b4643b9c249f3e7d23cea6cf363054a01",
+      "rows": 73852
+    },
+    {
+      "file": "foods-a93408c1ebc0-008.jsonl.gz",
+      "bytes": 2381250,
+      "sha256": "a93408c1ebc017115adf5ddba4bb33b6d33e0273751d3058914216b6124cac3d",
+      "rows": 68404
+    },
+    {
+      "file": "foods-1b14947a236f-009.jsonl.gz",
+      "bytes": 2335539,
+      "sha256": "1b14947a236f26f0f940456d60de3e12cbc2f202b648e4ceac21d63a533a2a9a",
+      "rows": 60955
+    },
+    {
+      "file": "foods-bea0faf1a31f-010.jsonl.gz",
+      "bytes": 2411326,
+      "sha256": "bea0faf1a31fa8d8049e8223e91afa04e1edae1eadf688295da3e2550519db84",
+      "rows": 58925
+    },
+    {
+      "file": "foods-b8805abe7969-011.jsonl.gz",
+      "bytes": 2322244,
+      "sha256": "b8805abe79698b6969bc5e0aa0ca9295e79d48a78945167a4c6e4d2c3eab46b6",
+      "rows": 57624
+    },
+    {
+      "file": "foods-d039dfe84fef-012.jsonl.gz",
+      "bytes": 2280868,
+      "sha256": "d039dfe84fefa9332638967ba8d34b3cbaf76492cc68cc1f65a9c02ad68d3a1b",
+      "rows": 60452
+    },
+    {
+      "file": "foods-529a115a73ab-013.jsonl.gz",
+      "bytes": 2340626,
+      "sha256": "529a115a73abc77b003c78355a9bc8c10d485d92db5d2eae4568eb3242282d84",
+      "rows": 61719
+    },
+    {
+      "file": "foods-0e9779c16435-014.jsonl.gz",
+      "bytes": 2363558,
+      "sha256": "0e9779c164353873cec1c11c67002cdf19e922fc2f83a4b48edf6a30de9214be",
+      "rows": 60179
+    },
+    {
+      "file": "foods-56fb9d7add37-015.jsonl.gz",
+      "bytes": 2347870,
+      "sha256": "56fb9d7add37bccb8b469bcd73469d34b0fa3364b17bddd39431ddc49f3a4818",
+      "rows": 61659
+    },
+    {
+      "file": "foods-37c43e47ada7-016.jsonl.gz",
+      "bytes": 2394142,
+      "sha256": "37c43e47ada7c7f9fb91cb83dc46f82940486c8e324c698d1745720a97951453",
+      "rows": 64893
+    },
+    {
+      "file": "foods-aab87227f1b3-017.jsonl.gz",
+      "bytes": 2437552,
+      "sha256": "aab87227f1b344633e3baa10980cf7cb67648164774143f90bfd71bf9d2e4e1f",
+      "rows": 66615
+    },
+    {
+      "file": "foods-3ce0a8fe3c5e-018.jsonl.gz",
+      "bytes": 2563570,
+      "sha256": "3ce0a8fe3c5e0cb8e955c6523fadf059fe3f2183cb1451413c58eafc63fcfe34",
+      "rows": 66628
+    },
+    {
+      "file": "foods-230c9ce772a2-019.jsonl.gz",
+      "bytes": 2437261,
+      "sha256": "230c9ce772a260e723691bc7bafc47ee1655c3d65473144c4a16ffa74da9a5c5",
+      "rows": 65742
+    },
+    {
+      "file": "foods-50d211bc6775-020.jsonl.gz",
+      "bytes": 2684783,
+      "sha256": "50d211bc6775a89ee4f43137999ee5e92b7b88b0a1bceddd892663fd135467c5",
+      "rows": 62717
+    },
+    {
+      "file": "foods-613a5c931f6c-021.jsonl.gz",
+      "bytes": 2755718,
+      "sha256": "613a5c931f6c432a35b2f88c8bdd085c3294f45718c078d3ae702c8473edf3fa",
+      "rows": 60578
+    },
+    {
+      "file": "foods-2f124686473b-022.jsonl.gz",
+      "bytes": 2590169,
+      "sha256": "2f124686473bb0be534c570b5a196aee04104a057eca344e6e408dfeb625ad84",
+      "rows": 65100
+    },
+    {
+      "file": "foods-134720e32e7e-023.jsonl.gz",
+      "bytes": 2622082,
+      "sha256": "134720e32e7e87a1c16b8126808dca4a3639ef52555dfaaddbcd5d8322e5bcfa",
+      "rows": 62948
+    },
+    {
+      "file": "foods-85c42b0b3714-024.jsonl.gz",
+      "bytes": 2831235,
+      "sha256": "85c42b0b3714ff615e3462785d701b30fefcf2620615310947f589c69532d5db",
+      "rows": 65084
+    },
+    {
+      "file": "foods-0964c9e4e474-025.jsonl.gz",
+      "bytes": 2578257,
+      "sha256": "0964c9e4e4748bdfd53ea0e3ef16fdd5e1c866f5dfebcabf1065ad7caeab7207",
+      "rows": 59995
+    },
+    {
+      "file": "foods-a1ce18fbebbc-026.jsonl.gz",
+      "bytes": 2558624,
+      "sha256": "a1ce18fbebbcd73383d9fba71f7c7f8c15a80f0aa6282f0a20ce44862edfad9a",
+      "rows": 59027
+    },
+    {
+      "file": "foods-a3b2c71d4fb9-027.jsonl.gz",
+      "bytes": 2630428,
+      "sha256": "a3b2c71d4fb9293ae49eae9b8f2c6d7b9ab8275e13d6565dcb90489d27b4f3ef",
+      "rows": 59016
+    },
+    {
+      "file": "foods-755cc40be0e3-028.jsonl.gz",
+      "bytes": 2510512,
+      "sha256": "755cc40be0e31a4faa5aba5ab560c17b7d8fec07c48379e85c833d814f112ec8",
+      "rows": 60822
+    },
+    {
+      "file": "foods-f203d2b467fd-029.jsonl.gz",
+      "bytes": 2541472,
+      "sha256": "f203d2b467fda2a2bc46bf91c9cbf62274e87036e301aa307625ceffedfa4af4",
+      "rows": 62689
+    },
+    {
+      "file": "foods-6b54d05e3372-030.jsonl.gz",
+      "bytes": 2644978,
+      "sha256": "6b54d05e3372b57f8847e14cbae6cd3aab0f19d5a844c7da5c05380c05f28640",
+      "rows": 64519
+    },
+    {
+      "file": "foods-927f052ed3fb-031.jsonl.gz",
+      "bytes": 2773516,
+      "sha256": "927f052ed3fbf1cc724550aebcae76b5634c42c610e29da77b4ce7bf7b147a85",
+      "rows": 66204
+    },
+    {
+      "file": "foods-3c64d199597b-032.jsonl.gz",
+      "bytes": 2597499,
+      "sha256": "3c64d199597b7291904258cd7887cf3428de3dc7f0e42991ed428e0041ddbb72",
+      "rows": 64751
+    },
+    {
+      "file": "foods-099491421704-033.jsonl.gz",
+      "bytes": 2570112,
+      "sha256": "099491421704fbacdebe5819047626ddf728aacb1ed70fa685f4b7b46f766642",
+      "rows": 59513
+    },
+    {
+      "file": "foods-7efc2059f26a-034.jsonl.gz",
+      "bytes": 2491552,
+      "sha256": "7efc2059f26ad502354cd55331db8a18e55da58582499430b87ac4c92134970d",
+      "rows": 65843
+    },
+    {
+      "file": "foods-afecbe0395f7-035.jsonl.gz",
+      "bytes": 2205764,
+      "sha256": "afecbe0395f781b0454daaf1c7b4af6ced799580630cb5d6fe2350f510785750",
+      "rows": 60356
+    },
+    {
+      "file": "foods-4def9cc5abed-036.jsonl.gz",
+      "bytes": 2263007,
+      "sha256": "4def9cc5abedd294bb19332a2f1f42cb69265457e32d527f9a3865d924cb996e",
+      "rows": 60896
+    },
+    {
+      "file": "foods-1e55783980d3-037.jsonl.gz",
+      "bytes": 2330965,
+      "sha256": "1e55783980d31b757f49577740120797dafeb111622a9c87229ad3bc41f8ad3c",
+      "rows": 61598
+    },
+    {
+      "file": "foods-0916956ac8a9-038.jsonl.gz",
+      "bytes": 2455551,
+      "sha256": "0916956ac8a9c3aaa60eae443cd62aa4321904b3721392751b20fc9cb14618b7",
+      "rows": 62479
+    },
+    {
+      "file": "foods-a1939f1db89f-039.jsonl.gz",
+      "bytes": 2244761,
+      "sha256": "a1939f1db89f9f76077f04d800d8578344dc370459125ca00c1c44c50cecdbc4",
+      "rows": 62505
+    },
+    {
+      "file": "foods-70bfcc681ada-040.jsonl.gz",
+      "bytes": 2336642,
+      "sha256": "70bfcc681adade629de4d6674caae99f314c6ef4963c8a28f3a38e8e8c6e7fae",
+      "rows": 62687
+    },
+    {
+      "file": "foods-7d2a1ad3fcfc-041.jsonl.gz",
+      "bytes": 2450741,
+      "sha256": "7d2a1ad3fcfcd7f9e8ab3398396f4925cea6f97af46e2ce04c583c4aa71f6c45",
+      "rows": 64015
+    },
+    {
+      "file": "foods-444710f5fc3e-042.jsonl.gz",
+      "bytes": 2606168,
+      "sha256": "444710f5fc3ee906a2ae8e42356e8b61c41d11147ef99e13f1232e2de626a663",
+      "rows": 62644
+    },
+    {
+      "file": "foods-dd933e7018aa-043.jsonl.gz",
+      "bytes": 2591254,
+      "sha256": "dd933e7018aa610094f4e73d3a882ded65b8e34e641f764fc5bf54720c8155d0",
+      "rows": 63236
+    },
+    {
+      "file": "foods-c1ad947e4912-044.jsonl.gz",
+      "bytes": 2633394,
+      "sha256": "c1ad947e49121cb04bbdf9c3e0ac82aa1b4c2f89743398a111e57d983d063cd9",
+      "rows": 62597
+    },
+    {
+      "file": "foods-a44e0929d697-045.jsonl.gz",
+      "bytes": 2279321,
+      "sha256": "a44e0929d697713293541a48f961dafa5eb1151c9e6704cfa4556e515033bbf8",
+      "rows": 55012
+    }
+  ],
+  "source": "https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz",
+  "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "Contains information from Open Food Facts, available under the Open Database License (ODbL). Individual contents: Database Contents License. No product images included."
+}
