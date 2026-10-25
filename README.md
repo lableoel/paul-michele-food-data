@@ -26,3 +26,11 @@ A build host needs several GB of temporary storage. The raw export and intermedi
 ## Licences and privacy
 
 See [LICENSE.md](LICENSE.md): database ODbL1.0; individual contents DbCL1.0. The standalone build tools are MIT. Manufacturer names and trademarks retain their owners' rights. GitHub receives ordinary connection metadata when clients download files; see [GitHub privacy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). No app records are sent here.
+
+## Compact mobile format (v2)
+
+The app v2.2.1+ uses `manifest-v2.json`: a pre-indexed, read-only SQLite snapshot split into independently SHA-256 verified gzip chunks. All 2,839,458 original regional labels are retained losslessly. Current installed size is 227,557,376 bytes (about217MiB), down84.6% from the previous Android database; initial transfer is165,179,673bytes (about158MiB). No product photos are included.
+
+The snapshot stores fixed-field product arrays in small zlib blocks and a contentless SQLiteFTS4 token index. Android/iOS do not parse or index millions of product rows. Unchanged versions fetch only the manifest; changed builds can reuse unchanged4MiB slices from the installed snapshot. Interrupted installation resumes at verified slice boundaries. No compressed second copy remains installed.
+
+`manifest.json` and its JSONL files remain available for v2.2.0 clients. Both formats are refreshed by the same free standard public GitHub Actions job. The build/validation tools operate on public facts only; they never receive personal app data. New SQLite files are temporary build intermediates and must not be committed; only attributed compressed chunks/manifests are published.

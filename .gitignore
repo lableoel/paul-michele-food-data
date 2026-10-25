@@ -3,3 +3,7 @@
 *.sqlite
 *.sqlite-*
 __pycache__/
+
+catalog.sqlite
+pending.sqlite
+expected.json

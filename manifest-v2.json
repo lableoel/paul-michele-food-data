@@ -1,0 +1,400 @@
+{
+  "schema": 2,
+  "scope": "europe-switzerland",
+  "version": "2026-10-25-a11698db8d82",
+  "createdAt": "2026-10-25T21:00:58Z",
+  "count": 2839458,
+  "format": "sqlite-blocks-v2",
+  "databaseBytes": 227557376,
+  "databaseSha256": "a11698db8d82b05e0866e9ae1bd05424c8a367e719552e530585b5ec4b1ba8f9",
+  "parts": [
+    {
+      "file": "catalog-826eb10742453332.sqlite.gz",
+      "bytes": 1827466,
+      "sha256": "826eb10742453332191f1205e02e56c0f2d7423a15889d4d9c5430bb2a388b4f",
+      "expandedBytes": 4194304,
+      "expandedSha256": "d30112c2074734a23c9d53138ca9d8de29cc468eb3a060652cdf2c59db329746"
+    },
+    {
+      "file": "catalog-120d0d1670a2838d.sqlite.gz",
+      "bytes": 1741380,
+      "sha256": "120d0d1670a2838d123b2f21db5515686804922b37fc44b61d9447bba40dee03",
+      "expandedBytes": 4194304,
+      "expandedSha256": "1700be4a6d5f025fdef56c9bde12e25281f65fc0edf48227d2c7a465f97482ce"
+    },
+    {
+      "file": "catalog-f32a9185b686ed4e.sqlite.gz",
+      "bytes": 1602549,
+      "sha256": "f32a9185b686ed4e1e4ab81a711dc215f30caa70a94593db04790be2d63d27ff",
+      "expandedBytes": 4194304,
+      "expandedSha256": "5e79913691d56fbd5143618c08b66b0bdacd737b2b94fabac5d498337078246c"
+    },
+    {
+      "file": "catalog-71a402b8ffe82819.sqlite.gz",
+      "bytes": 1502154,
+      "sha256": "71a402b8ffe8281967f973892e79226c5cc984a011f304a0d1aa25b4700fe3f9",
+      "expandedBytes": 4194304,
+      "expandedSha256": "a1c4dbdd6de24250880845b3a09a7fe8a29406279730d7ebc67bd6ab4b99ed30"
+    },
+    {
+      "file": "catalog-ccd9540c9a6c77b7.sqlite.gz",
+      "bytes": 1506476,
+      "sha256": "ccd9540c9a6c77b704e8ab5b0e735f03dead5ced64915fe4c0f44e8fb368a081",
+      "expandedBytes": 4194304,
+      "expandedSha256": "a981794d98d7e71c579d7cf705ef02d8b605ce94731bf773406197b8341cd10f"
+    },
+    {
+      "file": "catalog-d3eac49783bd9949.sqlite.gz",
+      "bytes": 1504390,
+      "sha256": "d3eac49783bd99499ae689e2422a3be2d8d422617cf6ee157ddc7d00519839a9",
+      "expandedBytes": 4194304,
+      "expandedSha256": "1fe911d271ed3c272ad7802a0b392a202b331e66eb75655b22c055d39aa5d6cb"
+    },
+    {
+      "file": "catalog-1a6eedb46cda0104.sqlite.gz",
+      "bytes": 1413561,
+      "sha256": "1a6eedb46cda010460efd776d5ee1f7867fa40cc9343a1bab4e8e5743b311b20",
+      "expandedBytes": 4194304,
+      "expandedSha256": "50f080d1b0108a93d0089bf2eaf2210556caf65315674e559990c394248e3809"
+    },
+    {
+      "file": "catalog-559eb12b078dd0f7.sqlite.gz",
+      "bytes": 1484511,
+      "sha256": "559eb12b078dd0f73037d97b911e6da87ce1fe7564e6bfb1f35782e9af609e30",
+      "expandedBytes": 4194304,
+      "expandedSha256": "16240e5ec5b4243dfa9da3a269b98e69757440737d6bcd2b02a5ed5fea579547"
+    },
+    {
+      "file": "catalog-b1117673e8326d15.sqlite.gz",
+      "bytes": 1420735,
+      "sha256": "b1117673e8326d152b648fc48c7f9e6a3f21144c184e9bf3e3e69365255989b2",
+      "expandedBytes": 4194304,
+      "expandedSha256": "d479dd5f50d703b8ccfcef348d9e9a5ea7905583d083f3eed8e92b4b21024576"
+    },
+    {
+      "file": "catalog-5d81cc8f744b4bfe.sqlite.gz",
+      "bytes": 1413162,
+      "sha256": "5d81cc8f744b4bfe31df7f138cf36456826347624e4dd5d495874166dbca62a4",
+      "expandedBytes": 4194304,
+      "expandedSha256": "5cdf8c010fecba42fe6bebaf5a0545175aafff73c3dddd9bd90daf295900a388"
+    },
+    {
+      "file": "catalog-8df0e993ea90e68e.sqlite.gz",
+      "bytes": 1434006,
+      "sha256": "8df0e993ea90e68e005055183439a0c40a203b31008f6c3f823d08716782fd22",
+      "expandedBytes": 4194304,
+      "expandedSha256": "04d973fbb2266dd7de9b76ced263581ab87f4aa247f3866466299609dd8b0fa5"
+    },
+    {
+      "file": "catalog-7d9b2faf9b16855a.sqlite.gz",
+      "bytes": 3379700,
+      "sha256": "7d9b2faf9b16855a035cf3dcbeb7b631237cd888444633d928aa3fd302e33174",
+      "expandedBytes": 4194304,
+      "expandedSha256": "49282acb17b42f549d297c73a08ccdeb89ee930219da346311b9a96c15664c0d"
+    },
+    {
+      "file": "catalog-6a70853896f668fa.sqlite.gz",
+      "bytes": 3918571,
+      "sha256": "6a70853896f668fade051574b7be40c4fa7fb1ece6583438ff292c26b814d941",
+      "expandedBytes": 4194304,
+      "expandedSha256": "a88252106f4218e898ed4acade0139c788d87f1969da1cc5a12961bb7aa189fa"
+    },
+    {
+      "file": "catalog-e5b791eaac7b2563.sqlite.gz",
+      "bytes": 3666736,
+      "sha256": "e5b791eaac7b2563088436f55c8d18dfbe1047c6e34e802305d01f9dd3fe677c",
+      "expandedBytes": 4194304,
+      "expandedSha256": "50032bb8320991ef68f3db8008af2294e97700ef6d160f07c62d9b6909c6073d"
+    },
+    {
+      "file": "catalog-985fffac5739a122.sqlite.gz",
+      "bytes": 3823267,
+      "sha256": "985fffac5739a122df3089088f019c6d7472c23bf486e37fbfd11501e1376802",
+      "expandedBytes": 4194304,
+      "expandedSha256": "7e4257aebf3a816899caa3262ed8c97bd320fc34b735964dea52e5dd04f93adf"
+    },
+    {
+      "file": "catalog-1cc5be916bc436d3.sqlite.gz",
+      "bytes": 3303473,
+      "sha256": "1cc5be916bc436d397b4c1f5f93f7c780659fd7cab5411b0c6b6029153393678",
+      "expandedBytes": 4194304,
+      "expandedSha256": "63f11894ed1eee7f2dad59c971683e72250f8c627461ca53ad4a38a3b8f9391e"
+    },
+    {
+      "file": "catalog-3a977a789665c999.sqlite.gz",
+      "bytes": 3613661,
+      "sha256": "3a977a789665c999670f5b79b3a69ebffacf74325f7c11b718c805fd15822e22",
+      "expandedBytes": 4194304,
+      "expandedSha256": "b94c2d73cf5884347bda0b39523883467c6ae41a1e49518179d8eb668e581234"
+    },
+    {
+      "file": "catalog-33df4168931e2d5a.sqlite.gz",
+      "bytes": 3857367,
+      "sha256": "33df4168931e2d5aba276dfc8a1fd66e050875cc689c91435a9635b1f1a33e29",
+      "expandedBytes": 4194304,
+      "expandedSha256": "f15c9c406555ab2583a947d3888eab48a9489fe832ce9b8e7ec4999cbbfc5bd1"
+    },
+    {
+      "file": "catalog-8261b003c73cebfb.sqlite.gz",
+      "bytes": 3720553,
+      "sha256": "8261b003c73cebfbffc522e36f3504cfdcf1e8c188e03c7aaeba1629fa4c25b8",
+      "expandedBytes": 4194304,
+      "expandedSha256": "44a8baf92649c6df0084b0042e32511012462e23197dbb4d006e5b8353ac6776"
+    },
+    {
+      "file": "catalog-560dd88447a7d4db.sqlite.gz",
+      "bytes": 3845288,
+      "sha256": "560dd88447a7d4dbe43ed497054679b49b5c3a910f08dd3b5c45424660860272",
+      "expandedBytes": 4194304,
+      "expandedSha256": "9455825ace4315d877f798a2b476a12eece64073f9826c757f53fd439f1f9e20"
+    },
+    {
+      "file": "catalog-2a0627792847b73e.sqlite.gz",
+      "bytes": 3722879,
+      "sha256": "2a0627792847b73e52fdeed0bcdc30a6636f8126dbfc48788c817774a4682d08",
+      "expandedBytes": 4194304,
+      "expandedSha256": "572ab09266620b97f543024e6e0db1d954b677a6d066c386600db42569bb7f4f"
+    },
+    {
+      "file": "catalog-c51773e2f7746df4.sqlite.gz",
+      "bytes": 3679013,
+      "sha256": "c51773e2f7746df492733af92a3a526b73ab8198818ca30ee484ec6e24389d85",
+      "expandedBytes": 4194304,
+      "expandedSha256": "1cd378fbbe2cc15956bd435fb67e58185f1f4aeadda9cd7d2dd2e1655792d065"
+    },
+    {
+      "file": "catalog-595ce6d700a0700a.sqlite.gz",
+      "bytes": 3742374,
+      "sha256": "595ce6d700a0700a8eb831bf2f32ad20dae96283bc6def846ddb7b826c94f77a",
+      "expandedBytes": 4194304,
+      "expandedSha256": "050237304b5be92a131c30e31cd647c73defe6e17871be9e9ecfbc67e1fdf82f"
+    },
+    {
+      "file": "catalog-1a6600b5c4ac30ad.sqlite.gz",
+      "bytes": 3822437,
+      "sha256": "1a6600b5c4ac30adb7706c2dcde6ce909c99d7bddd53fce14cfb12e003d4d2e8",
+      "expandedBytes": 4194304,
+      "expandedSha256": "b9cb89fef2f162fef962894f89e4e273a60610e80dae46b92238912865dbbf3a"
+    },
+    {
+      "file": "catalog-064d1888a631bc80.sqlite.gz",
+      "bytes": 3846689,
+      "sha256": "064d1888a631bc808231b4d99a23168e4c135aa3ce4cd93ad55355e865a3f270",
+      "expandedBytes": 4194304,
+      "expandedSha256": "f15075db4de99f8323916b10ba870490549dd514a4092148af8518a12ca95322"
+    },
+    {
+      "file": "catalog-406552f5d3ed8e6f.sqlite.gz",
+      "bytes": 3957741,
+      "sha256": "406552f5d3ed8e6fb571b3ee9ed95d1c47d3c2be46deae84d862d8e6ff5ddd0e",
+      "expandedBytes": 4194304,
+      "expandedSha256": "9b932f24b0de95c656d98ddc32071564d75ccdafd4f0267583aece5aa25c4274"
+    },
+    {
+      "file": "catalog-a16574622f1a93b1.sqlite.gz",
+      "bytes": 3943454,
+      "sha256": "a16574622f1a93b1766d1d1c266eb71f0e44de1e73e04a6a9fe1cfad8f0378c2",
+      "expandedBytes": 4194304,
+      "expandedSha256": "3a1717e630905d3f432773796cde63521c8e6ee65ccc4c76c1edb0f5ccf085d3"
+    },
+    {
+      "file": "catalog-a67e71787d0af0ec.sqlite.gz",
+      "bytes": 3933783,
+      "sha256": "a67e71787d0af0ec38908c699f7121750fa0794e00b6a560a70a351f4157b635",
+      "expandedBytes": 4194304,
+      "expandedSha256": "49bce0e89c9b7f9ca4da047130599b50b64329778111058985468fb21aa65162"
+    },
+    {
+      "file": "catalog-6e3c0d2524800c41.sqlite.gz",
+      "bytes": 4002752,
+      "sha256": "6e3c0d2524800c41e39fa8fb0f73d4cf28a321c21ef76781b5e106aefaefd63f",
+      "expandedBytes": 4194304,
+      "expandedSha256": "f6544b34cf8e8af2b151ebcf1a00c90ca7a58d2ffd4168c96d74976037a9a6f2"
+    },
+    {
+      "file": "catalog-a09057d4c8e2da6b.sqlite.gz",
+      "bytes": 3945433,
+      "sha256": "a09057d4c8e2da6b772c9193e1b6194bdc671ea12f2029387fa1335e9348a967",
+      "expandedBytes": 4194304,
+      "expandedSha256": "b013fdb669d0d358303a97439f84cbd10bfdf21dfb66dcf442169879186f8c9a"
+    },
+    {
+      "file": "catalog-eff5d4fcfdc77e4a.sqlite.gz",
+      "bytes": 3896906,
+      "sha256": "eff5d4fcfdc77e4a24f705d744ce6f837eb621265e83e0fd8552cf6e98566511",
+      "expandedBytes": 4194304,
+      "expandedSha256": "51cf11e718a155d2999bb99427794530c301351601707ef1afb5641f171e85fc"
+    },
+    {
+      "file": "catalog-6b27056a66f71462.sqlite.gz",
+      "bytes": 3866846,
+      "sha256": "6b27056a66f7146297710008fafe9cd0780bb3a501a2d0d9d9915b3a752f1112",
+      "expandedBytes": 4194304,
+      "expandedSha256": "3a9b0e80a3f27360ec0b2069763ea55f84bc40516034eaa9cb9e9bb70e4ae95a"
+    },
+    {
+      "file": "catalog-f6ebd2ee1639fb10.sqlite.gz",
+      "bytes": 3677166,
+      "sha256": "f6ebd2ee1639fb10fc7c05339372f60f8fd64ee905ef102d6432d54631979a62",
+      "expandedBytes": 4194304,
+      "expandedSha256": "aa0c9e3dc577fb88a6b0bdd3fb83d61f878c09b48ad86692ff0c62546ee8916a"
+    },
+    {
+      "file": "catalog-25fe73421ba9b7be.sqlite.gz",
+      "bytes": 3867179,
+      "sha256": "25fe73421ba9b7be852c9e65af4b1fa5ea89c6ac62d00cee454a30e778b06f7b",
+      "expandedBytes": 4194304,
+      "expandedSha256": "4efb891a267e016bd74605c4def7dde82436763db44192bdaf2364640880fd15"
+    },
+    {
+      "file": "catalog-547ea419c33a1ece.sqlite.gz",
+      "bytes": 3666294,
+      "sha256": "547ea419c33a1ece897685f73d259bff4ef24d498d227b9a4e5eb3e1cb91ef7f",
+      "expandedBytes": 4194304,
+      "expandedSha256": "3350a7fc76cf4f4cbcad1d93c05d960dbf5ab5976a382055247457342ffb045b"
+    },
+    {
+      "file": "catalog-b9a85f9dddb33dbd.sqlite.gz",
+      "bytes": 3845334,
+      "sha256": "b9a85f9dddb33dbd39f19a4f8b6c370106d7c31ed42375aafb9992baa775f407",
+      "expandedBytes": 4194304,
+      "expandedSha256": "e396b490a6c34fa7c1f7120a74b5b95290f3122bc2fcce153e154293b7c70a66"
+    },
+    {
+      "file": "catalog-3397aac12a45ab63.sqlite.gz",
+      "bytes": 3943488,
+      "sha256": "3397aac12a45ab631b82184a3f319d75a04d0294570667110b09cafa6f0a1f00",
+      "expandedBytes": 4194304,
+      "expandedSha256": "efe71cf43a2cda2fca1412b7f853e95d120d432cab3ee44e97a400cbb6df052e"
+    },
+    {
+      "file": "catalog-bef4370a5b5d64f1.sqlite.gz",
+      "bytes": 3937205,
+      "sha256": "bef4370a5b5d64f16c4d2f846f8be23ae9dbfcd2ac6e5ab76d37ae66b28f21c1",
+      "expandedBytes": 4194304,
+      "expandedSha256": "8311af38f5de669c04f5809bba1a7b96d786232dd727f8a1db460662338c7ba3"
+    },
+    {
+      "file": "catalog-d376c65b963555b0.sqlite.gz",
+      "bytes": 3042819,
+      "sha256": "d376c65b963555b0ee22ffcdb5570f9b27b9d2b66880f2190148e1e14c0fc881",
+      "expandedBytes": 4194304,
+      "expandedSha256": "8109a44a0ea278a8166424e31e8318bf46ddae44a0cf79eec086e7124daad3f4"
+    },
+    {
+      "file": "catalog-f793a51a31e9b648.sqlite.gz",
+      "bytes": 2822092,
+      "sha256": "f793a51a31e9b6489e86635f90289266d9087b85f4ce8d5addecff64f33e871a",
+      "expandedBytes": 4194304,
+      "expandedSha256": "01c38b2494c7a7e8d04b7842233fd979e669f409df6fc3a87bd0294c0c136701"
+    },
+    {
+      "file": "catalog-c548c13459818bb4.sqlite.gz",
+      "bytes": 2792039,
+      "sha256": "c548c13459818bb4e15f3f1423cb3a8805b9481a07b95cbc95e0bd40b264925a",
+      "expandedBytes": 4194304,
+      "expandedSha256": "29a4b8e6aa48cd8bed911828d8be3d9f3e9ddc9d3717a1c903dfceff3e9c2de9"
+    },
+    {
+      "file": "catalog-cef25d43caa663e8.sqlite.gz",
+      "bytes": 2828244,
+      "sha256": "cef25d43caa663e8124411018674d18c1e629675ed7e253a50571f9b1641cfa4",
+      "expandedBytes": 4194304,
+      "expandedSha256": "76b33696c80e65f823b079f47b5585f9bc0a72191f949d54a879ec3c91aff403"
+    },
+    {
+      "file": "catalog-8cdee77e59cc4508.sqlite.gz",
+      "bytes": 2703926,
+      "sha256": "8cdee77e59cc450811d61896d7e2de6a8a46ddc5748a423583e2ccc9ff1bf3ca",
+      "expandedBytes": 4194304,
+      "expandedSha256": "4586d6afe1c03acc0a63f8b708f922ad62175a14f3d3e2d8b1b873836c18df30"
+    },
+    {
+      "file": "catalog-1851118c143d356c.sqlite.gz",
+      "bytes": 2794947,
+      "sha256": "1851118c143d356cd43c00c19195f6ce144b3cafcc70e98ffa36bdb3580888e1",
+      "expandedBytes": 4194304,
+      "expandedSha256": "5c5cbb361e9b7d6936ae70db88bc00a67f658d958d829f8e3d0419e87e5519a4"
+    },
+    {
+      "file": "catalog-c88426737c829189.sqlite.gz",
+      "bytes": 2815034,
+      "sha256": "c88426737c829189462aa59f0642496bf5c52e3a4bc06a82b2c82678d2f8038e",
+      "expandedBytes": 4194304,
+      "expandedSha256": "bbf4009fe64b4eab21b9f27ec5af1ce1be21a72704e7b5956d75bff3a423dde6"
+    },
+    {
+      "file": "catalog-9066c4a5a0f335ab.sqlite.gz",
+      "bytes": 2813443,
+      "sha256": "9066c4a5a0f335ab2e033e1c22ff40b6af1509630b6bb6f9dc35fa6f20a2fe1d",
+      "expandedBytes": 4194304,
+      "expandedSha256": "3a7fd9b796de1a7ed99fe342afe83261a0d726733947d0750866d7fe4edfc91f"
+    },
+    {
+      "file": "catalog-1b43469667403c7c.sqlite.gz",
+      "bytes": 2858533,
+      "sha256": "1b43469667403c7cb0480a10da36c50fe8c299a80402ddab78b90350f53aa653",
+      "expandedBytes": 4194304,
+      "expandedSha256": "0357464c41a21cb5862ab4d8c774730c7ea3b7d489f954020dbdb841cb16fec9"
+    },
+    {
+      "file": "catalog-cd780b1e0299868d.sqlite.gz",
+      "bytes": 2805950,
+      "sha256": "cd780b1e0299868de562d190761b7e45053ea283d6cc28afc0d293c2886c04a3",
+      "expandedBytes": 4194304,
+      "expandedSha256": "4bb6a348a7e42308e5d59125d078314d46119e57b1eeac5b5bbf995d184167ab"
+    },
+    {
+      "file": "catalog-18ac66b8608e8381.sqlite.gz",
+      "bytes": 2843502,
+      "sha256": "18ac66b8608e83814a22cd91e3cd0fb1949adde08fdd2d3c003a2ca6d5000db5",
+      "expandedBytes": 4194304,
+      "expandedSha256": "5096c103dd9e7b82f8f0b68d490b03a75752a42e913f38e44e4c8213bcad8ca4"
+    },
+    {
+      "file": "catalog-fefcef75b126235c.sqlite.gz",
+      "bytes": 2798264,
+      "sha256": "fefcef75b126235c114a97127bc82e15e0149b0bcf55da6c7da550241b150b0a",
+      "expandedBytes": 4194304,
+      "expandedSha256": "4f4de301a6783da488875fa820240abe1b11c0f3083a67a03486d81b07dd2c44"
+    },
+    {
+      "file": "catalog-b64c61309a3cdc34.sqlite.gz",
+      "bytes": 2815462,
+      "sha256": "b64c61309a3cdc345b828dc2c5b30e3e01b9e093c14f393e8a43a68f82537aa3",
+      "expandedBytes": 4194304,
+      "expandedSha256": "45ab0385efab256ee7450d25a24b0f7b59dbf97088fd9c3ed8d8fd3486a51126"
+    },
+    {
+      "file": "catalog-8a89851ebc6af5dd.sqlite.gz",
+      "bytes": 2829186,
+      "sha256": "8a89851ebc6af5ddad41bff4875298c0ae1d5b1376e9801c70e1d927b296b1ce",
+      "expandedBytes": 4194304,
+      "expandedSha256": "a5bb0f656c680b38445b88663b7c6c196ef2bd72bc13480dff35fbfe34445b7a"
+    },
+    {
+      "file": "catalog-22318497ac52ae50.sqlite.gz",
+      "bytes": 2804909,
+      "sha256": "22318497ac52ae50fc35943955819e9df1cff644552cc8f55b63fdcc0f4350ab",
+      "expandedBytes": 4194304,
+      "expandedSha256": "8e71e63931b3e36e6d9b32855cbbf2b8b2bf04c497deaedba6e9a92d30c9f769"
+    },
+    {
+      "file": "catalog-7aea4cb281d64f38.sqlite.gz",
+      "bytes": 2812505,
+      "sha256": "7aea4cb281d64f38cd662d3382a600cc6c384a2134f7cae72568da551506e05a",
+      "expandedBytes": 4194304,
+      "expandedSha256": "9ee4877d785bbef4e43e0c05651b5d2e70db57fbcb0e03caea6f724d03e0555d"
+    },
+    {
+      "file": "catalog-b241c168fd13ce17.sqlite.gz",
+      "bytes": 722839,
+      "sha256": "b241c168fd13ce171231f9b9c2a6fa79a9ea5bcb6dbe3832dd7a1758acd24753",
+      "expandedBytes": 1064960,
+      "expandedSha256": "edb4fb27d7a0d3c24431ae82c2543732570e2869f8ef8ccfba56437a565d44b8"
+    }
+  ],
+  "source": "https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz",
+  "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "Contains information from Open Food Facts, under ODbL. Individual contents: DbCL. No images or personal records."
+}
