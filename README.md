@@ -12,7 +12,7 @@ New parts and their manifest publish in one Git commit. Old immutable parts rema
 
 ## Monthly refresh
 
-The scheduled workflow runs on the second day of each month using a standard public Ubuntu runner, plus an optional manual dispatch. It streams the official full export once on the build host; phones download only this regional pack. Source and intermediate SQLite remain in temporary runner storage and are never committed. The workflow validates the full pack and commits only public outputs. Existing immutable chunks stay available for interrupted clients; unreferenced current-tree files older than120days may be pruned. Git history retains older versions. No workflow runs on ordinary pushes, avoiding duplicate regeneration. Future scheduled execution depends on GitHub availability and workflow policy.
+The scheduled workflow runs on the second day of each month using a standard public Ubuntu runner, plus an optional manual dispatch (validation only by default; choose refresh to regenerate). It streams the official full export once on the build host; phones download only this regional pack. Source and intermediate SQLite remain in temporary runner storage and are never committed. The workflow validates the full pack and commits only public outputs. Existing immutable chunks stay available for interrupted clients; unreferenced current-tree files older than120days may be pruned. Git history retains older versions. No workflow runs on ordinary pushes, avoiding duplicate regeneration. Future scheduled execution depends on GitHub availability and workflow policy.
 
 To reproduce with Python3.10+ and no third-party packages:
 

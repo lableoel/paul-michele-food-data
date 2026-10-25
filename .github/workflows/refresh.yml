@@ -1,6 +1,13 @@
 name: Refresh European food data
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: Validate the existing pack or regenerate from the official export
+        required: true
+        default: validate
+        type: choice
+        options: [validate, refresh]
   schedule:
     - cron: '17 3 2 * *'
 permissions:
@@ -18,10 +25,12 @@ jobs:
         with:
           fetch-depth: 0
       - name: Build regional data from official export
+        if: github.event_name == 'schedule' || inputs.mode == 'refresh'
         run: python3 scripts/build_dataset.py --download --source "$RUNNER_TEMP/openfoodfacts.csv.gz" --output .
       - name: Verify all public rows and hashes
         run: python3 scripts/validate_dataset.py
       - name: Prune obsolete current-tree chunks after 120 days
+        if: github.event_name == 'schedule' || inputs.mode == 'refresh'
         run: |
           python3 - <<'PY'
           import json,pathlib,subprocess,time
@@ -31,6 +40,7 @@ jobs:
               if p.name not in used and stamp and time.time()-int(stamp)>120*86400:p.unlink()
           PY
       - name: Publish only verified public data
+        if: github.event_name == 'schedule' || inputs.mode == 'refresh'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
